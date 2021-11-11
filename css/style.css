@@ -1,0 +1,27 @@
+.main {
+    padding-top: 3.5rem;
+    padding-bottom: 4rem;
+}
+
+.bordered {
+    background-color: white;
+    border-style: solid;
+    border-top-color: gray;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    border-left-color: gray;
+    padding: 10px 5px;
+}
+
+.text-strong {
+    font-weight: bold;
+}
+
+.padding-lr-sm {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.my-card {
+    /* width: 100%; */
+}
