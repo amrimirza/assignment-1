@@ -22,6 +22,7 @@
     padding-right: 0.5rem;
 }
 
-.my-card {
-    /* width: 100%; */
+div.jumbotron p {
+    font-size: x-large;
+    margin-bottom: 2rem;
 }
