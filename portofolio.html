@@ -55,49 +55,50 @@
     <br>
     <div class="container main">
         <div class="row bordered">
-            <div class="col-2">
+            <div class="col-4 col-md-2">
                 <img src="img/logo.PNG" alt="ini gambar">
             </div>
-            <div class="col-3">
+            <div class="col-8 col-md-4">
                 <div class="row">
-                    <div class="col">
-                        <strong>MUHAMMAD AMRIMIRZA</strong>
-                        <br> Front End Designer
-                    </div>
+                    <div class="col text-strong" id="resultNama">MUHAMMAD AMRIMIRZA</div>
+                </div>
+                <div class="row">
+                    <div class="col" id="resultRole">Front End Designer</div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col">
                         <a href="mailto:muhammad.amrimirza@mk.job-tomori.com" class="btn btn-primary">Kontak</a>
+                        <button class="btn btn-success" id="editBtn">Edit</button>
                         <button class="btn btn-warning">Resume</button>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-md">
                 <div class="row">
-                    <div class="col-2 text-strong">Availability</div>
-                    <div class="col">: Full Time</div>
+                    <div class="col-4 col-lg-3 text-strong">Availability</div>
+                    <div class="col col-md col-lg" id="resultAvailability">Full Time</div>
                 </div>
                 <div class="row">
-                    <div class="col-2 text-strong">Usia</div>
-                    <div class="col">: 19</div>
+                    <div class="col-4 col-lg-3 text-strong">Usia</div>
+                    <div class="col col-lg" id="resultUsia">19</div>
                 </div>
                 <div class="row">
-                    <div class="col-2 text-strong">Lokasi</div>
-                    <div class="col">: Jakarta</div>
+                    <div class="col-4 col-lg-3 text-strong">Lokasi</div>
+                    <div class="col col-lg" id="resultLokasi">Jakarta</div>
                 </div>
                 <div class="row">
-                    <div class="col-2 text-strong">Pengalaman</div>
-                    <div class="col">: 2</div>
+                    <div class="col-4 col-lg-3 text-strong">Pengalaman</div>
+                    <div class="col col-lg" id="resultPengalaman">2</div>
                 </div>
                 <div class="row">
-                    <div class="col-2 text-strong">Email</div>
-                    <div class="col">: email@gmail.com</div>
+                    <div class="col-4 col-lg-3 text-strong">Email</div>
+                    <div class="col col-lg" id="resultEmail">muhammad.amrimirza@mk.job-tomori.com</div>
                 </div>
             </div>
         </div>
         <br>
-        <div class="row bordered">
+        <div class="row bordered hidden" id="myForm">
             <div class="col">
                 <form>
                     <div class="form-group">
@@ -128,14 +129,18 @@
                         <label for="Email" class="col-form-label text-strong">Email</label>
                         <input type="email" name="Email" id="Email" class="form-control">
                     </div>
-                    <input type="submit" value="Submit" id="submit" class="btn btn-success btn-block">
+                    <!-- <input type="submit" value="Submit" id="submit" class="btn btn-success btn-block" onclick="submitForm"> -->
                 </form>
+                <button class="btn btn-success btn-block" id="submitBtn">Submit</button>
             </div>
         </div>
     </div>
     <nav class="navbar navbar-dark bg-dark fixed-bottom">
         <span class="navbar-text">Copyright</span>
     </nav>
+
+    <script src="script/portofolio.js"></script>
+
 </body>
 
 </html>
